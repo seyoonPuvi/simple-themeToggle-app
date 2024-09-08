@@ -1,0 +1,66 @@
+/* Write your CSS here */
+
+.navbar-cont {
+  padding: 1rem 10rem;
+}
+
+.nav-dark-bg {
+  background-color: var(--dark-theme-bg-color);
+}
+
+.nav-light-bg {
+  background-color: var(--light-theme-bg-color);
+}
+
+.navbar-list-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline-start: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.website-logo {
+  height: 3rem;
+  width: 6rem;
+  object-fit: contain;
+  object-position: center;
+}
+
+.theme-logo {
+  height: 3rem;
+  width: 3rem;
+  object-fit: contain;
+  object-position: center;
+}
+
+.home_about-list-cont {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.nav-item-dark {
+  color: var(--dark-theme-text-color);
+  font-size: var(--title-text-font-size);
+  font-weight: bold;
+}
+
+.nav-item-light {
+  color: var(--light-theme-text-color);
+  font-size: var(--title-text-font-size);
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+}

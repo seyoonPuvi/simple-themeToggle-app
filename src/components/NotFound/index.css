@@ -1,0 +1,42 @@
+/* Write your CSS here */
+/* Write your CSS here */
+h1 {
+  font-size: --var(--title-text-font-size);
+}
+
+p {
+  font-size: --var(--desc-text-font-size);
+}
+
+.title-dark {
+  color: var(--dark-theme-text-color);
+  font-size: var(--title-text-font-size);
+}
+
+.title-light {
+  color: var(--light-theme-text-color);
+  font-size: var(--title-text-font-size);
+}
+
+.home-dark-bg {
+  background-color: var(--dark-theme-bg-color);
+}
+
+.home-light-bg {
+  background-color: var(--light-theme-bg-color);
+}
+
+.home-cont {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-cont img {
+  height: 20rem;
+  width: 20rem;
+  object-fit: contain;
+  object-position: center;
+}
