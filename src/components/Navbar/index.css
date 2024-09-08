@@ -4,6 +4,12 @@
   padding: 1rem 10rem;
 }
 
+@media (max-width:800px) {
+  .navbar-cont {
+    padding:1rem 1rem;
+  }
+}
+
 .nav-dark-bg {
   background-color: var(--dark-theme-bg-color);
 }
